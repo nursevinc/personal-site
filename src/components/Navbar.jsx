@@ -46,7 +46,7 @@ function Navbar() {
   style={{ cursor: "pointer" }}
   className="font-semibold text-xl tracking-tight text-stone-800 flex items-center gap-2">
   <img src="/NS.png" alt="logo" className="w-8 h-8 rounded-full object-cover" />
-  NUR <span style={{ color: "#9C7A4B" }}>SEVİNÇ</span>
+  NUR SEVİNÇ 
 </button>
 
       {/* Masaüstü linkler */}
