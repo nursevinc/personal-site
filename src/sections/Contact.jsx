@@ -18,7 +18,7 @@ function Contact() {
     setLoading(true);
     setError(null);
     try {
-      await axios.post("https://personel-site-api-production-8078.up.railway.app/api/contact", form);
+     await axios.post("https://personel-site-api-production.up.railway.app/api/contact", form);
       setSent(true);
     } catch (err) {
       setError("Mesaj gönderilemedi. Lütfen tekrar deneyin.");
