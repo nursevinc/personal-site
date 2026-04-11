@@ -12,7 +12,7 @@ function App() {
     <div style={{ backgroundColor: "#FAF7F2" }} className="text-gray-900">
       <Navbar />
 
-      {/* Sol dekoratif şerit */}
+      {/* Sol şerit */}
       <div className="fixed top-0 left-6 h-full hidden lg:flex flex-col items-center justify-center gap-6 z-40">
         <div className="w-px flex-1" style={{ backgroundColor: "#E0D5C5" }}></div>
         <span className="text-xs text-stone-400"
@@ -22,7 +22,7 @@ function App() {
         <div className="w-px flex-1" style={{ backgroundColor: "#E0D5C5" }}></div>
       </div>
 
-      {/* Sağ dekoratif şerit */}
+      {/* Sağ şerit */}
       <div className="fixed top-0 right-6 h-full hidden lg:flex flex-col items-center justify-center gap-6 z-40">
         <div className="w-px flex-1" style={{ backgroundColor: "#E0D5C5" }}></div>
         <a href="https://github.com/nursevinc" target="_blank" rel="noreferrer"
