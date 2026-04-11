@@ -17,12 +17,14 @@ function Contact() {
     }
     setLoading(true);
     setError(null);
-    try {
-     await axios.post("https://personel-site-api-production.up.railway.app/api/contact", form);
-      setSent(true);
-    } catch (err) {
-      setError("Mesaj gönderilemedi. Lütfen tekrar deneyin.");
-    } finally {
+  try {
+  await axios.post("https://personel-site-api-production.up.railway.app/api/contact", form);
+  console.log("basarili");
+  setSent(true);
+} catch (err) {
+  console.log("hata:", err);
+  setError("Mesaj gönderilemedi. Lütfen tekrar deneyin.");
+} finally {
       setLoading(false);
     }
   };
