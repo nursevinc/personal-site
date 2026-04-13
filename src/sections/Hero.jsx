@@ -29,7 +29,6 @@ function Hero() {
       <div className="relative z-10 max-w-4xl mx-auto px-6 py-24 w-full">
         <div className="flex flex-col-reverse md:flex-row items-center gap-12 w-full">
           <div className="flex-1 text-center md:text-left">
-           
             <h1 className="fade-up-delay-2 text-5xl md:text-6xl font-bold mb-4 leading-tight text-stone-900">
               Nur SEVİNÇ
             </h1>
