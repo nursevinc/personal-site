@@ -29,12 +29,9 @@ function Hero() {
       <div className="relative z-10 max-w-4xl mx-auto px-6 py-24 w-full">
         <div className="flex flex-col-reverse md:flex-row items-center gap-12 w-full">
           <div className="flex-1 text-center md:text-left">
-            <p className="fade-up-delay-1 text-xs font-medium mb-3 tracking-widest uppercase"
-              style={{ color: "#7A5C35" }}>
-              Merhaba, ben
-            </p>
+           
             <h1 className="fade-up-delay-2 text-5xl md:text-6xl font-bold mb-4 leading-tight text-stone-900">
-              Nur Sevinç
+              Nur SEVİNÇ
             </h1>
             <p className="fade-up-delay-3 text-xl text-stone-500 mb-6 font-light">
               Yazılım Mühendisi
@@ -73,7 +70,7 @@ function Hero() {
         </div>
 
         {/* Scroll ipucu */}
-        <div className="fade-up-delay-5 absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2">
+        <div className="fade-up-delay-5 absolute bottom-5 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2">
           <span className="text-xs text-stone-500 tracking-widest">Aşağı kaydır</span>
           <div className="w-px h-8 animate-bounce" style={{ backgroundColor: "#9C7A4B" }}></div>
         </div>
