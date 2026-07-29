@@ -18,13 +18,7 @@ function Contact() {
     setLoading(true);
     setError(null);
  try {
-  await axios.post(
-    "https://personel-site-api.onrender.com/api/contact",
-    form,
-    {
-      timeout: 60000,
-    }
-  );
+  await axios.post("https://personel-site-api.onrender.com/api/contact", form);
 
   console.log("basarili");
   setSent(true);
