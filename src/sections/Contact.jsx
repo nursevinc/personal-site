@@ -17,19 +17,23 @@ function Contact() {
     }
     setLoading(true);
     setError(null);
-  try {
-  await axios.post("https://personel-site-api.onrender.com/api/contact", form);
-  await axios.post("https://personel-site-api.onrender.com/api/contact", form, {
-  timeout: 60000
-});
+ try {
+  await axios.post(
+    "https://personel-site-api.onrender.com/api/contact",
+    form,
+    {
+      timeout: 60000,
+    }
+  );
+
   console.log("basarili");
   setSent(true);
 } catch (err) {
   console.log("hata:", err);
   setError("Mesaj gönderilemedi. Lütfen tekrar deneyin.");
 } finally {
-      setLoading(false);
-    }
+  setLoading(false);
+}
   };
 
   const contacts = [
