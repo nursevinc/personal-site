@@ -1,6 +1,5 @@
-import { useState } from "react";
-import axios from "axios";
 import { useState, useEffect } from "react";
+import axios from "axios";
 function Contact() {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
   const [sent, setSent] = useState(false);
