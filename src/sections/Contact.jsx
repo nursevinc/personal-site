@@ -1,12 +1,14 @@
 import { useState } from "react";
 import axios from "axios";
-
+import { useState, useEffect } from "react";
 function Contact() {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
   const [sent, setSent] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
-
+useEffect(() => {
+  fetch("https://personel-site-api.onrender.com/api/contact");
+}, []);
   const handleChange = (e) =>
     setForm({ ...form, [e.target.name]: e.target.value });
 
