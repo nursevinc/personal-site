@@ -1,5 +1,5 @@
 import foto from "../assets/nur.jpg";
-import cv from "../assets/Nur SEVİNÇ CV.pdf";
+import cv from "../assets/NUR_SEVİNÇ_CV.pdf";
 
 function Hero() {
   const scrollTo = (id) =>
