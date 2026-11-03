@@ -21,7 +21,7 @@ const projects = [
       "Azure SQL Database"
     ],
     github: "https://github.com/nursevinc/careerai",
-    live: "https://careerai-chi-ivory.vercel.app/",
+    live: "https://careerai-hub.vercel.app/",
     image: careerai,
   },
   {
